@@ -7,10 +7,7 @@ if __name__ == '__main__':
     DATESET = ''  # name of dataset
     PROJECT = ''  # name of project
     BUCKET = ''  # name of Google Cloud Storage Bucket
-    OUTPUT_TABLE = 'bq-test'
-    DATESET = 'working'
-    PROJECT = 'starry-braid-156516'
-    BUCKET = 'acuteiq_zdenko'
+
     pipeline_options = {
         'project': PROJECT,
         'staging_location': 'gs://' + BUCKET + '/staging',
